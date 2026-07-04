@@ -1,5 +1,6 @@
 # Mi-LDGS: Monocular Indoor 3D Reconstruction via Gaussian Splatting
 
+
 **Authors:** [Xuan-Huong Nguyen](https://github.com/nauxqouh), [Phan Thi Ngoc Linh](https://github.com/nlinhpt) | **Advisor:** [MSc. Doan Thi Tram](https://github.com/dtseedx)
 
 ![Demo image](assets/demo-teaser.jpg)
