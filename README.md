@@ -26,19 +26,6 @@ class="center">
 
 ![visualization](assets/demo-results.jpg)
 
-### How to use
-Firstly open the viewer, 
-```shell
-<path to downloaded/compiled viewer>/bin/SIBR_remoteGaussian_app_rwdi
-```
-and then
-```shell
-# Monitor the training process
-python train.py -s <path to COLMAP or NeRF Synthetic dataset> 
-# View the trained model
-python view.py -s <path to COLMAP or NeRF Synthetic dataset> -m <path to trained model> 
-```
-
 ## Setup
 
 Clone the repository
