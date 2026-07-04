@@ -1,12 +1,10 @@
 # Mi-LDGS: Monocular Indoor 3D Reconstruction via Gaussian Splatting
 
-Authors: [Xuan-Huong Nguyen](https://github.com/nauxqouh), [Phan Thi Ngoc Linh](https://github.com/nlinhpt)
-
-Advisor: [MSc. Doan Thi Tram](https://github.com/dtseedx)
-
-[Project page]() | [Video]() | [Code](https://github.com/nauxqouh/Mi-LDGS.git) <br>
+**Authors:** [Xuan-Huong Nguyen](https://github.com/nauxqouh), [Phan Thi Ngoc Linh](https://github.com/nlinhpt) | **Advisor:** [MSc. Doan Thi Tram](https://github.com/dtseedx)
 
 ![Demo image](assets/demo-teaser.jpg)
+
+## [Project page]() | [Video]() | [Code](https://github.com/nauxqouh/Mi-LDGS.git) <br>
 
 This repo contains the official implementation for our **Bachelor's Graduation Thesis in Data Science "Monocular Indoor 3D Reconstruction via Gaussian Splatting"**. Our work overcomes monocular indoor 3D reconstruction bottlenecks by replacing traditional handcrafted features with an advanced deep-learning pipeline during the Structure-from-Motion (SfM) phase , and integrating a scale-aligned monocular depth prior as a strict geometric constraint during 2D Gaussian Splatting (2DGS) optimization.
 
@@ -20,11 +18,11 @@ class="center">
 
 **Mi-LDGS** seamlessly integrates deep local features and monocular geometry priors within 2D Gaussian Splatting to form a robust indoor reconstruction cycle.
     
-    (a) We leverage the end-to-end deep feature architecture of LoMa (DaD Detector + DeDoDe Descriptor + LightGlue Matcher) into the incremental SfM pipeline of COLMAP. This boosts the average image registration rate  and increases 3D point density over standard configurations.
+(a) We leverage the end-to-end deep feature architecture of LoMa (DaD Detector + DeDoDe Descriptor + LightGlue Matcher) into the incremental SfM pipeline of COLMAP. This boosts the average image registration rate  and increases 3D point density over standard configurations.
     
-    (b) We extract relative depth maps using Depth Anything V2 and lineally calibrate them into the SfM metric space using robust statistical estimators, preventing outlier errors.
+(b) We extract relative depth maps using Depth Anything V2 and lineally calibrate them into the SfM metric space using robust statistical estimators, preventing outlier errors.
     
-    (c) We optimize the 2D Gaussian disk primitives using a global composite loss function across an inverse depth space. The optimized radiant fields are then fused through TSDF Fusion to extract smooth, watertight meshes.
+(c) We optimize the 2D Gaussian disk primitives using a global composite loss function across an inverse depth space. The optimized radiant fields are then fused through TSDF Fusion to extract smooth, watertight meshes.
 
 ![visualization](assets/demo-results.jpg)
 
