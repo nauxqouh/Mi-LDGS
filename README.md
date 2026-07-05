@@ -92,7 +92,7 @@ The experimental results demonstrate that our proposed methods achieve a superio
 | Mi-LDGS *w/o LoMa* | 23.410 | 0.818 | **0.331** | **0.056** | 0.159 | **0.642** | 0.481 | **0.541** |
 | Mi-LDGS *w/o Depth* | 23.635 | 0.842 | 0.349 | 0.121 | 0.115 | 0.412 | 0.410 | 0.403 |
 
-![matching-image](assets/matching-vis.png)
+![matching-image](assets/matching-image.png)
 
 ![nvs-image](assets/nvs-vis.jpg)
 
